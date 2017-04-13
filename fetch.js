@@ -1,4 +1,4 @@
-fetch('https://github.com/MarkShmitt/Project/blob/master/articles.json', {mode:'cors'})  
+fetch('https://raw.githubusercontent.com/MarkShmitt/Project/master/articles.json', {mode:'cors'})  
   .then(function(response) { return response.json(); })
   .then(function(json) {
     json.forEach(function(e) {
